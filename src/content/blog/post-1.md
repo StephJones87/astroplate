@@ -2,7 +2,7 @@
 title: "No Plan B: My journey into tech."
 meta_title: "No Plan B: My journey into tech."
 description: "My personal journey into the tech world—juggling motherhood, caregiving, and a bold career change from pharmacist to coder."
-date: 2024-04-10
+date: 2024-04-10T05:00:00Z
 image: "/images/image-placeholder.png"
 categories: ["Career Journey", "Women in Tech"]
 author: "Steph"
