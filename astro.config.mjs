@@ -7,14 +7,13 @@ import { defineConfig } from "astro/config";
 import remarkCollapse from "remark-collapse";
 import remarkToc from "remark-toc";
 import sharp from "sharp";
-import config from "./src/config/config.json";
 
-// https://astro.build/config
+// Hardcode the GitHub Pages site + base path
 export default defineConfig({
   output: "static",  // Required for GitHub Pages
-  site: config.site.base_url || "http://examplesite.com",
-  base: config.site.base_path || "/",
-  trailingSlash: config.site.trailing_slash ? "always" : "never",
+  site: "https://StephJones87.github.io",
+  base: "/astroplate/",
+  trailingSlash: "always",  // Recommended for GitHub Pages to avoid broken links
   image: { service: sharp() },
   vite: { plugins: [tailwindcss()] },
   integrations: [
