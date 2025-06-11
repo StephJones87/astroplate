@@ -12,7 +12,7 @@ import sharp from "sharp";
 export default defineConfig({
   output: "static",  // Required for GitHub Pages
   build: { format: "file" }, // helps fix 404s on GitHub Pages
-  site: "https://www.codewithshin.com",
+  site: "https://www.codewithsteph.com",
   base: "/",  // Base path for GitHub Pages
   trailingSlash: "always",  // Recommended for GitHub Pages to avoid broken links
   image: { service: sharp() },
