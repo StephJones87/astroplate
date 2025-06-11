@@ -16,10 +16,12 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
+
       - name: Install, build, and upload site
         uses: withastro/action@v4
         with:
           package-manager: yarn
+          working-directory: .  # 👈 Explicitly set to root
 
   deploy:
     needs: build
