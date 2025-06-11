@@ -11,6 +11,7 @@ import sharp from "sharp";
 // Hardcode the GitHub Pages site + base path
 export default defineConfig({
   output: "static",  // Required for GitHub Pages
+  build: { format: "file" }, // helps fix 404s on GitHub Pages
   site: "https://StephJones87.github.io",
   base: "/astroplate/",
   trailingSlash: "always",  // Recommended for GitHub Pages to avoid broken links
