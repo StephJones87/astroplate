@@ -12,8 +12,8 @@ import sharp from "sharp";
 export default defineConfig({
   output: "static",  // Required for GitHub Pages
   build: { format: "file" }, // helps fix 404s on GitHub Pages
-  site: "https://StephJones87.github.io",
-  base: "/astroplate/",
+  site: "https://www.codewithshin.com",
+  base: "/",  // Base path for GitHub Pages
   trailingSlash: "always",  // Recommended for GitHub Pages to avoid broken links
   image: { service: sharp() },
   vite: { plugins: [tailwindcss()] },
