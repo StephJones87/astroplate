@@ -13,7 +13,7 @@ banner:
 features:
   - title: "My Vision"
     image: "/images/service-1.png"
-    content: "I didn't write my first line of code until I was 28 years old. Coding was not something I had been exposed to prior to that moment. 3 years and 1 maternity leave later I decided to take the plunge and start a career in tech. I never looked back - well maybe a few times when I got really stuck and my code didn't run! Code/tech is not magic but it is extremely powerful. Coding at it's core it is a set of instructions - my vision is a world where anyone can use code to build tools and products that improve the lives of the people around us. Tech is too important to be left to a few people."
+    content: "I didn't write my first line of code until I was 28 years old. Coding was not something I had been exposed to prior to that moment. 3 years and 1 maternity leave."
     bulletpoints:
       - "10+ Pre-build pages"
       - "95+ Google Pagespeed Score"
