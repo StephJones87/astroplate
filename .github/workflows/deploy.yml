@@ -20,8 +20,7 @@ jobs:
       - name: Install, build, and upload site
         uses: withastro/action@v4
         with:
-          package-manager: yarn
-          working-directory: .  # 👈 Explicitly set to root
+          package-manager: yarn  # Make sure yarn.lock is in the root!
 
   deploy:
     needs: build
