@@ -30,8 +30,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          name: github-pages-${{ github.run_id }}
-          path: ./dist
+          path: ./dist  # ✅ NO "name:" line here
 
   deploy:
     needs: build
