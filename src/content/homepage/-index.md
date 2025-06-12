@@ -1,8 +1,8 @@
 ---
 # Banner
 banner:
-  title: "Welcome to coding_with_steph, get ready to learn and flourish"
-  content: "Astroplate is a free starter template built with Astro and TailwindCSS, providing everything you need to jumpstart your Astro project and save valuable time."
+  title: "Give it a go, what is the worst that can happen...."
+  content: "This website aims to walk you through my journey into tech at the age of 28. I used a mix of community engagement, resources - online and books to immerse myself in the world of tech until something started to make sense."
   image: "/images/banner.png"
   button:
     enable: true
