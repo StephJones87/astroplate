@@ -40,12 +40,13 @@ features:
 
   - title: "Books"
     image: "/images/service-3.png"
-    content: "I have an ecclectic mix of books some I've read cover to cover some i've dipped in and out of. Find books that inspire you. "
+    content: "I have an ecclectic mix of books on my shelf, some I've read cover to cover some i've dipped in and out of. My advice dind books that inspire you - books that you want to keep on turning the next page. "
     bulletpoints:
-      - "Instantly load static sites for better user experience and SEO."
-      - "Intuitive syntax and support for popular frameworks make learning and using Astro a breeze."
-      - "Use any front-end library or framework, or build custom components, for any project size."
-      - "Built on cutting-edge technology to keep your projects up-to-date with the latest web standards."
+      - "She's in ctrl by Anne-Marie Imafidon - highly recommend!"
+      - "Dame Stephanie Shirley is sooo inspiring! She built her own tech company!"
+      - "Do not knock kids books - simple and fun ways to learn basics. "
+      - "Robert C Martin aka 'Uncle bob' is a total legend in the coding world - clean code is brilliant book."
+      - "I listened to pragmatic programmer on audile - it's a very interesting book."
     button:
       enable: false
       label: ""
