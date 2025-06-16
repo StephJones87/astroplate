@@ -35,8 +35,8 @@ features:
       - "DataCamp"
     button:
       enable: true
-      label: "Get Started Now"
-      link: "https://github.com/zeon-studio/astroplate"
+      label: "Visit my linkedin"
+      link: "https://www.linkedin.com/in/stephanie-jones-b3bb8870/"
 
   - title: "Books"
     image: "/images/service-3.png"
