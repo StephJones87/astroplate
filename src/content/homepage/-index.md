@@ -6,8 +6,8 @@ banner:
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Get Started For Free"
-    link: "https://github.com/zeon-studio/astroplate"
+    label: "My LinkedIn"
+    link: "https://www.linkedin.com/in/stephanie-jones-b3bb8870/"
 
 # Features
 features:
