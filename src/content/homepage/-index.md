@@ -19,7 +19,7 @@ features:
       - "Pyladies"
       - "Women In Data"
       - "R Ladies"
-      - "meet ups"
+      - "meet ups - Europython, PyData"
       - "codebar"
     button:
       enable: false
