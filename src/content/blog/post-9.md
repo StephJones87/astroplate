@@ -20,33 +20,43 @@ In lecture 0, [David Malan](https://www.youtube.com/watch?v=kUovJpWqEMk)—compu
 
 David dicusses 'Dictionary attacks' - this idea literally guesses passwords from a dictionary of words. brute force attacks.
 
-David poses the question: if your password is 8 characters long, and each character could be any of 94 possible characters (letters, digits, symbols), then:
+David discusses 4 digit passcodes - and states there are 10^4 possible combinations and how simple python code can geenrate these combinations in fractions of a second. He then poses the question: if your password is 8 characters long, and each character could be any of 94 possible characters (letters, digits, symbols), then:
 
 **There are 94⁸ possible combinations.**
 
 That’s: 94^8 = 6,095,689,385,410,816 combinations
-
 
 Malan uses this to illustrate:
 - The **mathematics of brute force resistance**
 - How just a few more characters dramatically increase security
 - Why using a wider character set (e.g., including symbols) helps
 
-This concept really sticks because it's a tangible, numerical demonstration of how secure—or insecure—a password really is.
+I found this concept really tangible, it was a numerical demonstration of how secure—or insecure—a password really is.
 
 ### 2. **Credentials stuffing**
 
+Malan described how hackers can buy already hacked credentials online and then 'stuff' them into all other accounts you own. So it isn't good practice to re use passwords. 
 
 ### 3. **Social Engineering and Phishing**
 
 He emphasizes that **humans are often the weakest link** in security. He explains phishing through simple examples, showing how easily people can be tricked into revealing credentials. This highlights the importance of **user education** alongside technical defenses.
 
 
-
-
 ### 3. **Multi-Factor Authentication (MFA)**
 
-He introduces MFA as a vital layer of security. Something you know (password) + something you have (phone) = stronger defense. It's especially important for protecting high-value accounts.
+Modern cybersecurity often revolves around multi-factor authentication (MFA) — the idea is to combine at least two of the following:
+
+Knowledge — something you know (e.g. password, PIN)
+
+Possession — something you have (e.g. phone, YubiKey)
+
+Inherence — something you are (e.g. fingerprint, face ID)
+
+The more factors you use, the harder it becomes for an adversary to breach your account — this is what he means by “raising the bar to adversaries.”
+
+
+### 4. Machine-in-the-middle attacks
+
 
 ### 4. **Best Practices and Final Takeaways**
 
@@ -62,38 +72,6 @@ Whether you're new to cybersecurity or need a refresher, Malan's talk is a super
 
 It’s a reminder that cybersecurity isn’t just a technical challenge—it’s also psychological, educational, and behavioral.
 
----
-
-🛡️ **TL;DR:**  
-David Malan explains cybersecurity fundamentals with clarity and enthusiasm. If you’ve ever reused a password, you should watch this. And then maybe change that password.
-
-
-
-🔐 Cybersecurity: Modern Threats, Defenses & Best Practices
-🧱 Foundational Concepts: Authentication Factors
-Modern cybersecurity often revolves around multi-factor authentication (MFA) — the idea is to combine at least two of the following:
-
-Knowledge — something you know (e.g. password, PIN)
-
-Possession — something you have (e.g. phone, YubiKey)
-
-Inherence — something you are (e.g. fingerprint, face ID)
-
-The more factors you use, the harder it becomes for an adversary to breach your account — this is what Troy Hunt means by “raising the bar to adversaries.”
-
-🚪 Passwords: Still Ubiquitous, Still Vulnerable
-Troy Hunt famously runs Have I Been Pwned, which collects and exposes breaches to warn people of reused or compromised credentials. His password advice often includes:
-
-Use long, unique passwords
-
-Avoid reuse across sites
-
-Use password managers to generate and store them
-
-Passwords alone are not enough — layer with MFA
-
-🛡️ Credential-Based Threats
-Credential stuffing: Attackers use breached username-password combos on other sites (since many reuse them).
 
 Keylogging: Malware records your keystrokes to capture passwords.
 
@@ -102,15 +80,6 @@ SIM swapping: Attackers socially engineer mobile providers to port your number t
 Social engineering & phishing: Trick users into revealing credentials or clicking malicious links.
 
 Man-in-the-middle (MitM): Intercepts communication between you and a site, often over unsecured networks.
-
-🧠 Raising the Bar for Adversaries
-Troy’s core philosophy is not to strive for perfect security (it doesn't exist) but to make attacks economically or technically unviable for most adversaries. For example:
-
-Using MFA stops credential stuffing even if your password is leaked.
-
-Enforcing strong, random passwords makes brute force attacks inefficient.
-
-Using SSO (Single Sign-On) reduces the surface area — fewer passwords overall.
 
 📵 Why Voice Biometrics Are Weak
 Troy advises against voice recognition as a secure method of authentication. Why?
@@ -128,18 +97,4 @@ The National Institute of Standards and Technology (NIST) is highly respected in
 
 Dropping outdated password rules (like mandatory character types or periodic changes).
 
-Encouraging user-friendly yet secure authentication — e.g., password managers.
-
-Blocking known breached passwords at registration/login.
-
-Troy’s password guidance aligns closely with this modern, evidence-based approach.
-
-✅ Key Takeaways for Defending Against Attacks
-Threat	Defense
-Password reuse	Unique passwords + password manager
-Phishing/social engineering	Security awareness + phishing-resistant MFA
-SIM swapping	Avoid SMS-based 2FA; use app-based or hardware keys
-Keylogging	Avoid entering passwords on untrusted machines
-MitM	Always use HTTPS; avoid public Wi-Fi without a VPN
-Credential stuffing	Use MFA + monitor for breaches (e.g. via HIBP)
-Voice spoofing	Avoid voice biometrics for authentication
+---
