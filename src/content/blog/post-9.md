@@ -1,5 +1,5 @@
 ---
-title: "Cybersecurity Foundations with David Malan"
+title: "CS50 Cybersecurity - Lecture 0 - Securing Accounts with David Malan"
 meta_title: "David Malan Cybersecurity Lecture Review"
 description: "A breakdown of David Malan's engaging lecture on cybersecurity, including the significance of 94^8 in password entropy."
 date: 2025-06-23T05:00:00Z
@@ -10,22 +10,17 @@ tags: ["cybersecurity", "password entropy", "david malan", "harvard cs50"]
 draft: false
 ---
 
-In his compelling and accessible lecture, [David Malan](https://www.youtube.com/watch?v=kUovJpWqEMk)—computer science professor from Harvard's CS50 course—walks viewers through core concepts of cybersecurity, digital trust, and password strength.
+Cybersecurity is currently a hot topic - it feels pretty everywhere - especially with the M and S attack it led me to thinking I do not know enough, how can I learn more. So I turned to see what CS50 had to offer by way of Cybersecurity. Sure enough David Malan has some content so off we go....
 
-The lecture is designed for beginners but is rich with insights for seasoned software developers and security-conscious users alike.
+In lecture 0, [David Malan](https://www.youtube.com/watch?v=kUovJpWqEMk)—computer science professor from Harvard's CS50 course—walks through core concepts of cybersecurity.
 
 ## Key Topics Covered
 
-### 1. **Social Engineering and Phishing**
+### 1. **Passwords**
 
-He emphasizes that **humans are often the weakest link** in security. He explains phishing through simple examples, showing how easily people can be tricked into revealing credentials. This highlights the importance of **user education** alongside technical defenses.
+David dicusses 'Dictionary attacks' - this idea literally guesses passwords from a dictionary of words. brute force attacks.
 
-
-### 2. **Brute Force Attacks and 94⁸**
-
-This section is a highlight of the lecture—and the most thought-provoking.
-
-He poses the question: if your password is 8 characters long, and each character could be any of 94 possible characters (letters, digits, symbols), then:
+David poses the question: if your password is 8 characters long, and each character could be any of 94 possible characters (letters, digits, symbols), then:
 
 **There are 94⁸ possible combinations.**
 
@@ -38,6 +33,16 @@ Malan uses this to illustrate:
 - Why using a wider character set (e.g., including symbols) helps
 
 This concept really sticks because it's a tangible, numerical demonstration of how secure—or insecure—a password really is.
+
+### 2. **Credentials stuffing**
+
+
+### 3. **Social Engineering and Phishing**
+
+He emphasizes that **humans are often the weakest link** in security. He explains phishing through simple examples, showing how easily people can be tricked into revealing credentials. This highlights the importance of **user education** alongside technical defenses.
+
+
+
 
 ### 3. **Multi-Factor Authentication (MFA)**
 
