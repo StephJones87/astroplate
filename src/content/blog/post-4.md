@@ -31,7 +31,7 @@ Think of your base function like an espresso shot: strong, pure, and distinct. I
 ```python
 def greet():
     return "Hello!"
-
+```
 
 ## Adding Milk: Smoothing Out the Edges
 
@@ -48,7 +48,9 @@ def log_decorator(func):
 
 @log_decorator
 def greet():
-    return "Hello!" ```
+    return "Hello!" 
+
+```
 
 Now every time `greet()` is called, it prints `"Calling greet"` first. Just like milk, it’s an enhancement—not a rewrite.
 
@@ -67,6 +69,7 @@ def safe_run(func):
         except Exception as e:
             return f"Oops! Something went wrong: {e}"
     return wrapper
+```
 
 ## Cinnamon: Adding a Dash of Complexity
 
@@ -85,6 +88,8 @@ def time_it(func):
         print(f"{func.__name__} took {end - start:.4f}s to run.")
         return result
     return wrapper
+
+```
 
 ## Defining a Decorator in Python
 
