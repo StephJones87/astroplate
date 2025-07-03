@@ -48,7 +48,7 @@ def log_decorator(func):
 
 @log_decorator
 def greet():
-    return "Hello!"
+    return "Hello!" ```
 
 Now every time `greet()` is called, it prints `"Calling greet"` first. Just like milk, it’s an enhancement—not a rewrite.
 
