@@ -14,7 +14,15 @@ Nemo vel ad consectetur namut rutrum ex, venenatis sollicitudin urna. Aliquam er
 
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo vel ad consectetur ut aperiam. Itaque eligendi natus aperiam? Excepturi repellendus consequatur quibusdam optio expedita praesentium est adipisci dolorem ut eius!
 
-## Creative Design
+## Lesson 1 - Getting Set Up
+## Lesson 2 - Project kick off and database set up
+## Lesson 3 - Time zones, dates and timestamps
+## Lesson 4 - Extracting, transforming and loading
+## Lesson 5 - Productionizing our work
+## Lesson 6 - Productionizing across the pipeline
+## Lesson 7 - DE Practice improvement and cloud foundations
+## Lesson 8 - Your SNOWPIPE
+## Lesson 9 - Curated Data
 
 Nam ut rutrum ex, venenatis sollicitudin urna. Aliquam erat volutpat. Integer eu ipsum sem. Ut bibendum lacus vestibulum maximus suscipit. Quisque vitae nibh iaculis neque blandit euismod.
 
