@@ -1,5 +1,5 @@
 ---
-title: "How to build an Application with modern Technology6"
+title: "Snowflake - Badge 5: Data Engineering Workshop"
 meta_title: ""
 description: "this is meta description"
 date: 2022-04-04T05:00:00Z
