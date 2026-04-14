@@ -58,6 +58,6 @@ Put clothes on radiator the night before - no decision making in the morning.
 No TV in the morning. I really struggle with this. TV is sometimes a great way to relax and enjoy the entertainment but I am very concious that it is a passive activity and can sometimes stop other types of play. I also observe my children after watching TV and sometimes their behaviour is terrible. I'm a strong advocate of having a huge pack of paper and pens near the dining table and encouraging drawing/writing whenever I can. This is not for schools sake but more for ones imagination. I also detest colouring books - I do not understand them. Why would I wan't to colour something in when on a blank page I can draw my own monster or animal or person or house or whatever it is. Maybe as a coder I am a 'builder/maker' at heart and colouring in someone else's creation doesn't fill me with any joy. I want this creativity bug for my children as I think being able to imagine a different world is so important. 
 
 
-
+I also knew I wanted to start to be more vocal about the new career I had set up for myself and encouraging others to do it too. I agreed to do a podcast when my baby was 3 weeks old. And to be a speaker at an event when she was 5 months old. It was a lot but actually it gave me focus. These were however things that I wanted to do and things that I knew inside and out so would not be difficult for me. E.g. if I had only got 4 hours sleep the previous night I could still feel confident to talk about these things. 
 
 
